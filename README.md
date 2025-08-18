@@ -72,3 +72,34 @@ graph TD
 
     %% Styling
 ```
+
+```mermaid
+---
+title: Risico Matrix voor Wachttijd Irrigatie
+---
+graph TD
+    %% Row 1: Column Headers
+    Blank(" ") --- Header_X1("Waterstand: Laag<br/>(weinig verdunning)") --- Header_X2("Waterstand: Hoog<br/>(veel verdunning)");
+
+    %% Row 2: Low Flow Speed
+    Header_Y1("Stroomsnelheid: Laag<br/>🐢 weinig afvoer") --- Cell_11("5<br/>dagen") --- Cell_12("3-4<br/>dagen");
+
+    %% Row 3: High Flow Speed
+    Header_Y2("Stroomsnelheid: Hoog<br/>🐇 veel afvoer") --- Cell_21("2<br/>dagen") --- Cell_22("1<br/>dag");
+
+    %% Styling
+    style Blank fill:none, stroke:none;
+    
+    classDef header fill:#e9ecef,stroke:#333,color:#000,font-weight:bold;
+    classDef rowHeader fill:#f8f9fa,stroke:#333,color:#000,font-weight:bold;
+    
+    classDef highRisk fill:#f8d7da,stroke:#721c24,color:#721c24,font-weight:bold,font-size:16px;
+    classDef medRisk fill:#fff3cd,stroke:#856404,color:#856404,font-weight:bold,font-size:16px;
+    classDef lowRisk fill:#d4edda,stroke:#155724,color:#155724,font-weight:bold,font-size:16px;
+
+    class Header_X1,Header_X2 header;
+    class Header_Y1,Header_Y2 rowHeader;
+    class Cell_11 highRisk;
+    class Cell_12,Cell_21 medRisk;
+    class Cell_22 lowRisk;
+```
