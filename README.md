@@ -1,3 +1,34 @@
+# Project FoodS: Handvaten voor Veilig Irrigatiewater
+
+Dit project biedt praktische handvaten en beslissingsondersteunende hulpmiddelen voor agrariërs om veilig gebruik te maken van oppervlaktewater voor irrigatie, in lijn met de geest van de GlobalGAP-regelgeving.
+
+## Omschrijving
+
+Het doel van GlobalGAP is het waarborgen van de voedselveiligheid, onder andere door het testen van oppervlaktewater dat wordt gebruikt voor irrigatie. Dit project laat zien hoe agrariërs en consumenten beter beschermd kunnen worden aan de hand van simpele vuistregels, zonder dat dit veel extra moeite kost. De focus ligt op de risico's voor de menselijke gezondheid.
+
+## Achtergrond
+
+De GlobalGAP-wetgeving vereist doorgaans enkele metingen van het oppervlaktewater per jaar. Echter, de waterkwaliteit kan op de schaal van dagen of zelfs uren fluctueren, waardoor deze metingen alleen niet altijd een volledig beeld geven.
+
+Dit project overbrugt die kloof door redelijke inschattingen van de waterkwaliteit mogelijk te maken, zelfs zonder directe meting. De hier gepresenteerde vuistregels zijn gebaseerd op een combinatie van modellen, risico-inschattingen, praktijkervaring en gezond boerenverstand. Metingen blijven echter een essentieel middel om onbekende situaties te evalueren.
+
+## Doelgroep
+
+Dit document is primair bedoeld als rugsteun voor agrariërs die te maken hebben met de GlobalGAP-regelgeving voor irrigatiewater.
+
+## Inhoud van deze Repository
+
+* **/WaterSafety_SHP_g.docx**: Het volledige brondocument met gedetailleerde uitleg over risico's, de logica achter de stroomschema's, factsheets over ziekteverwekkers en structurele ("no-regret") maatregelen.
+* **/Poster/**: Materialen en ontwerpen voor een informatieve poster die de kernboodschappen en stroomschema's samenvat voor gebruik in de praktijk.
+* `README.md`: Dit bestand.
+
+## Kern van de Aanpak: De Stroomschema's
+
+De kern van dit project wordt gevormd door twee stroomschema's die helpen bij het nemen van een concrete actie.
+
+### 1. Schema 1: Risico-inventarisatie en Wachttijd
+Dit schema is voor geplande irrigatie en helpt te bepalen of er een risico is en hoe lang men eventueel moet wachten.
+
 ```mermaid
 ---
 title: Schema 1 - Risico-inventarisatie en Wachttijd
@@ -30,6 +61,9 @@ graph TD
     
     G --- G_note
 ```
+
+### 2. Schema 2: Actieplan bij Acute Waterbehoefte
+Dit schema is voor situaties waarin wachten volgens Schema 1 eigenlijk niet mogelijk is door bijvoorbeeld extreme droogte[cite: 87]. 
 
 ```mermaid
 ---
@@ -73,33 +107,11 @@ graph TD
     %% Styling
 ```
 
-```mermaid
----
-title: Risico Matrix voor Wachttijd Irrigatie
----
-graph TD
-    %% Row 1: Column Headers
-    Blank(" ") --- Header_X1("Waterstand: Laag<br/>(weinig verdunning)") --- Header_X2("Waterstand: Hoog<br/>(veel verdunning)");
+## Technische Details: Mermaid Flowcharts
 
-    %% Row 2: Low Flow Speed
-    Header_Y1("Stroomsnelheid: Laag<br/>🐢 weinig afvoer") --- Cell_11("5<br/>dagen") --- Cell_12("3-4<br/>dagen");
+De flowcharts in deze repository zijn geschreven in [Mermaid syntax](https://mermaid-js.github.io/mermaid/#/). Dit is een op tekst gebaseerde manier om diagrammen te genereren.
 
-    %% Row 3: High Flow Speed
-    Header_Y2("Stroomsnelheid: Hoog<br/>🐇 veel afvoer") --- Cell_21("2<br/>dagen") --- Cell_22("1<br/>dag");
+* **Bekijken**: GitHub rendert `.md` bestanden met Mermaid-blokken automatisch als visuele diagrammen.
+* **Bewerken**: U kunt de `.md` bestanden direct in een teksteditor aanpassen. Om de wijzigingen live te zien, kunt u de [Mermaid Live Editor](https://mermaid.live) gebruiken.
 
-    %% Styling
-    style Blank fill:none, stroke:none;
-    
-    classDef header fill:#e9ecef,stroke:#333,color:#000,font-weight:bold;
-    classDef rowHeader fill:#f8f9fa,stroke:#333,color:#000,font-weight:bold;
-    
-    classDef highRisk fill:#f8d7da,stroke:#721c24,color:#721c24,font-weight:bold,font-size:16px;
-    classDef medRisk fill:#fff3cd,stroke:#856404,color:#856404,font-weight:bold,font-size:16px;
-    classDef lowRisk fill:#d4edda,stroke:#155724,color:#155724,font-weight:bold,font-size:16px;
 
-    class Header_X1,Header_X2 header;
-    class Header_Y1,Header_Y2 rowHeader;
-    class Cell_11 highRisk;
-    class Cell_12,Cell_21 medRisk;
-    class Cell_22 lowRisk;
-```
