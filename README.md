@@ -18,8 +18,8 @@ Dit document is primair bedoeld als rugsteun voor agrariërs die te maken hebben
 
 ## Inhoud van deze Repository
 
-* **/WaterSafety_SHP_g.docx**: Het volledige brondocument met gedetailleerde uitleg over risico's, de logica achter de stroomschema's, factsheets over ziekteverwekkers en structurele ("no-regret") maatregelen.
-* **/Poster/**: Materialen en ontwerpen voor een informatieve poster die de kernboodschappen en stroomschema's samenvat voor gebruik in de praktijk.
+* **/word/WaterSafety_SHP_g.docx**: Het volledige brondocument met gedetailleerde uitleg over risico's, de logica achter de stroomschema's, factsheets over ziekteverwekkers en structurele ("no-regret") maatregelen.
+* **/pdf/poster.pdf**: Informatieve poster die de kernboodschappen en stroomschema's samenvat voor gebruik in de praktijk.
 * `README.md`: Dit bestand.
 
 ## Kern van de Aanpak: De Stroomschema's
