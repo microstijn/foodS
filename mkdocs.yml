@@ -1,4 +1,4 @@
-# mkdocs.yml (Definitieve versie met plugin)
+# mkdocs.yml (Vereenvoudigde en geverifieerde versie)
 
 site_name: Project FoodS - Veilig Irrigatiewater
 site_author: Stijn Peeters
@@ -14,7 +14,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.suggest
-    # De '- mermaid' feature is hier niet meer nodig, de plugin regelt het.
+    - mermaid
 
 nav:
   - 'Introductie': 'index.md'
@@ -24,11 +24,6 @@ nav:
   - 'Ziekteverwekkers': 'ziekteverwekkers.md'
   - 'Structurele Maatregelen': 'maatregelen.md'
 
-# We hebben alleen de basis-extensie nodig, de plugin doet de rest.
+# Vereenvoudigde lijst van extensies. Dit is meestal voldoende.
 markdown_extensions:
   - pymdownx.superfences
-
-# Voeg de 'plugins' sectie toe om de mermaid2 plugin te activeren.
-plugins:
-  - search  # 'search' is een standaard plugin, het is goed om deze expliciet te benoemen.
-  - mermaid2
