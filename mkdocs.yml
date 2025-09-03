@@ -17,12 +17,7 @@ theme:
     - mermaid
 
 nav:
-  - 'Introductie': 'index.md'
-  - 'Belangrijke Begrippen': 'begrippen.md'
-  - 'De Risico’s': 'risicos.md'
-  - 'Actieplan & Flowcharts': 'actieplan.md'
-  - 'Ziekteverwekkers': 'ziekteverwekkers.md'
-  - 'Structurele Maatregelen': 'maatregelen.md'
+  - 'Achtergrond document': 'index.md'
 
 # Vereenvoudigde lijst van extensies. Dit is meestal voldoende.
 markdown_extensions:
