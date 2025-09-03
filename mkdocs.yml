@@ -2,11 +2,11 @@
 
 site_name: Project FoodS - Veilig Irrigatiewater
 site_author: Stijn Peeters
-site_url: https://<jouw-project>.readthedocs.io/  # Wordt later automatisch ingevuld
+site_url: https://<jouw-project>.readthedocs.io/
 
-repo_url: https://github.com/microstijn/foodS
+repo_url: [https://github.com/microstijn/foodS](https://github.com/microstijn/foodS)
 repo_name: microstijn/foodS
-edit_uri: edit/main/docs/ # Zorgt voor een 'Edit on GitHub' knop
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -15,6 +15,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.suggest
+    - mermaid
 
 # Navigatiestructuur van je website
 nav:
@@ -25,6 +26,13 @@ nav:
   - 'Ziekteverwekkers': 'ziekteverwekkers.md'
   - 'Structurele Maatregelen': 'maatregelen.md'
 
-# Essentieel voor Mermaid-grafieken
+# Markdown extensies
 markdown_extensions:
-  - pymdownx.superfences
+  # --- VERVANG JE OUDE 'pymdownx.superfences' DOOR DIT BLOK ---
+  # Dit is de robuuste manier om superfences te configureren
+  # zodat het specifiek weet hoe het met mermaid-blokken moet omgaan.
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
