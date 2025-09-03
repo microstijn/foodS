@@ -1,9 +1,9 @@
-# mkdocs.yml (De complete en correcte versie)
+# mkdocs.yml (Definitieve versie met plugin)
 
 site_name: Project FoodS - Veilig Irrigatiewater
 site_author: Stijn Peeters
 
-repo_url: [https://github.com/microstijn/foodS](https://github.com/microstijn/foodS)
+repo_url: https://github.com/microstijn/foodS
 repo_name: microstijn/foodS
 edit_uri: edit/main/docs/
 
@@ -14,7 +14,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.suggest
-    - mermaid  # Zorgt dat het Mermaid javascript wordt geladen
+    # De '- mermaid' feature is hier niet meer nodig, de plugin regelt het.
 
 nav:
   - 'Introductie': 'index.md'
@@ -24,12 +24,11 @@ nav:
   - 'Ziekteverwekkers': 'ziekteverwekkers.md'
   - 'Structurele Maatregelen': 'maatregelen.md'
 
-# Markdown extensies
+# We hebben alleen de basis-extensie nodig, de plugin doet de rest.
 markdown_extensions:
-  # Deze volledige configuratie is nodig om ```mermaid blokken
-  # correct te verwerken zodat het thema ze kan renderen.
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
+
+# Voeg de 'plugins' sectie toe om de mermaid2 plugin te activeren.
+plugins:
+  - search  # 'search' is een standaard plugin, het is goed om deze expliciet te benoemen.
+  - mermaid2
