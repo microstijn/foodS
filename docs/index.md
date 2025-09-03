@@ -6,11 +6,11 @@ GlobalGAP heeft als doel het veiligstellen van onze gezondheid door het herhaald
 
 Voor een snel overzicht kun je de poster hieronder bekijken of direct downloaden voor later gebruik.
 
-[Download Poster (PDF)](pdf/poster.pdf){ .md-button .md-button--primary }
+[Download Poster (PDF)](poster.pdf){ .md-button .md-button--primary }
 
 <br>
 
-<iframe src="pdf/poster.pdf" width="100%" height="800px" title="Poster FoodS Veilig Irrigatiewater">
+<iframe src="poster.pdf" width="100%" height="800px" title="Poster FoodS Veilig Irrigatiewater">
     <p>Je browser ondersteunt geen ingesloten PDF's. Gebruik de knop hierboven om de poster te downloaden.</p>
 </iframe>
 
