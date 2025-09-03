@@ -1,5 +1,4 @@
 # mkdocs.yml
-
 site_name: Project FoodS - Veilig Irrigatiewater
 site_author: Stijn Peeters
 site_url: https://<jouw-project>.readthedocs.io/
@@ -28,9 +27,6 @@ nav:
 
 # Markdown extensies
 markdown_extensions:
-  # --- VERVANG JE OUDE 'pymdownx.superfences' DOOR DIT BLOK ---
-  # Dit is de robuuste manier om superfences te configureren
-  # zodat het specifiek weet hoe het met mermaid-blokken moet omgaan.
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
