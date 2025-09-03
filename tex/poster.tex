@@ -1,0 +1,151 @@
+\documentclass[a4paper, 10pt]{article}
+
+% PACKAGES
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Modern font
+\usepackage[dutch]{babel}
+\usepackage[margin=1.2cm, top=1.5cm, bottom=2.5cm]{geometry} % Narrow margins, space for footer
+\usepackage{graphicx} % For including images
+\usepackage{multicol} % For the three-column layout
+\usepackage[dvipsnames, svgnames]{xcolor} % For custom colors
+\usepackage{tcolorbox} % For colored boxes
+\usepackage{fontawesome5} % For icons (requires lualatex or xelatex)
+\usepackage{fancyhdr} % For the footer
+\usepackage{tikz} % For drawing footer background and placeholders
+
+% --- CUSTOMIZATION ---
+% Define colors for consistency
+\definecolor{headerRed}{RGB}{217, 83, 79}
+\definecolor{headerOrange}{RGB}{240, 173, 78}
+\definecolor{headerBlue}{RGB}{91, 192, 222}
+\definecolor{footerGray}{RGB}{245, 245, 245}
+
+% Tcolorbox style for column headers
+\newtcolorbox{columnheader}[2][]{
+	coltext=black,
+	fontupper=\large\bfseries,
+	boxrule=1pt,
+	arc=2mm,
+	halign=center,
+	valign=center
+}
+
+% --- NEW: Command for image placeholders ---
+\newcommand{\placeholderimage}[3]{%
+	\begin{tikzpicture}
+		\draw[gray, thick, rounded corners=3pt] (0,0) rectangle (#1, #2);
+		\node[text width=0.9*#1, align=center, text=gray] at (#1/2, #2/2) {\small\bfseries #3};
+	\end{tikzpicture}%
+}
+
+
+% --- DOCUMENT SETUP ---
+\pagestyle{empty} % No page numbers
+\setlength{\columnsep}{1cm} % Space between columns
+\setlength{\parindent}{0pt} % No indentation
+
+% --- FOOTER SETUP ---
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt} % No header rule
+\fancyfoot[C]{
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[yshift=1.25cm] at (current page.south) {
+			\begin{tikzpicture}[remember picture, overlay]
+				% Footer Background Box
+				\fill[footerGray] (current page.south west) rectangle (current page.south east);
+				
+				% Left Side: Contact Info
+				\node[anchor=west, text width=0.45\textwidth, align=left, inner sep=10pt] at ([xshift=1.2cm]current page.south west) {
+					\large\textbf{Dode dieren melden?} \\
+					Bel Waterschap Rivierenland: \textbf{(0344) 64 90 90} \\[.5em]
+					\small\textit{Disclaimer: Deze gids is een hulpmiddel. De officiële GLOBALG.A.P. regelgeving is leidend.}
+				};
+				
+				% Right Side: QR Code
+				\node[anchor=east, text width=0.45\textwidth, align=right, inner sep=10pt] at ([xshift=-1.2cm]current page.south east) {
+					\begin{minipage}{0.2\textwidth}
+						\centering
+						\placeholderimage{\linewidth}{\linewidth}{QR Code}
+					\end{minipage}%
+					\begin{minipage}{0.7\textwidth}
+						\large\textbf{Meer Weten? Scan de QR-code} \\
+						\texttt{uw-github-paginanaam.github.io}
+					\end{minipage}%
+				};
+			\end{tikzpicture}
+		};
+	\end{tikzpicture}
+}
+
+
+% --- DOCUMENT START ---
+\begin{document}
+	
+	% --- HEADER ---
+	\begin{minipage}[t]{0.75\textwidth}
+		\Huge\bfseries Handvat Irrigatiewater: Veilig \& Simpel \\[0.2em]
+		\large\textit{Praktische Gids voor GLOBALG.A.P.-conform watergebruik}
+	\end{{minipage}%
+	\begin{minipage}[t]{0.25\textwidth}
+		\raggedleft
+		\placeholderimage{3.5cm}{1.5cm}{Logo Waterschap}
+	\end{minipage}%
+	\vspace{0.5cm}
+	\hrule
+	\vspace{0.5cm}	
+	% --- THREE-COLUMN LAYOUT START ---
+	\begin{multicols}{3}		
+		% --- COLUMN 1: DIRECT DOEN ---
+		\begin{columnheader}{headerRed}
+			Wat als ik NU water nodig heb?
+		\end{columnheader}
+		\vspace{0.3cm}
+		\textbf{Actieplan bij Acute Waterbehoefte} \\
+		\placeholderimage{\linewidth}{7cm}{Schema 2: Actieplan}
+		\vspace{0.5cm}
+		\textbf{Risico Matrix: Hoe lang wachten?} \\
+		\placeholderimage{\linewidth}{5cm}{Risico Matrix}
+		% --- COLUMN 2: EERST DENKEN ---
+		\begin{columnheader}{headerOrange}
+			Moet ik wachten?
+		\end{columnheader}
+		\vspace{0.3cm}
+		\textbf{Risico-inventarisatie \& Wachttijd} \\
+		\placeholderimage{\linewidth}{7cm}{Schema 1: Risico-inventarisatie}
+		\vspace{0.5cm}
+		\textbf{Waar moet ik op letten?}
+		\begin{itemize}
+			\item[\faCloudShowersHeavy] \textbf{Hevige Regen:} Kans op riooloverstort.
+			\item[\faPoo] \textbf{Mestafspoeling:} Risico na bemesting.
+			\item[\faDove] \textbf{Dieren:} Grote groepen vogels of ratten.
+			\item[\faIndustry] \textbf{Lozingen:} Let op pijpen van zuiveringen.
+		\end{itemize}	
+		% --- COLUMN 3: GOED OM TE WETEN ---
+		\begin{columnheader}{headerBlue}
+			Achtergrond \& Tips
+		\end{columnheader}
+		\vspace{0.3cm}
+		\textbf{De Boosdoeners (kort)}
+		\begin{itemize}
+			\item \textbf{Legionella:} Gevaar bij verneveling.
+			\item \textbf{Ziekte van Weil:} Risico via rattenurine.
+			\item \textbf{Botulisme:} Gevaar door dode dieren.
+		\end{itemize}
+		\vspace{0.3cm}
+		\textbf{Slimme Keuzes ("No-Regret")}
+		\begin{itemize}
+			\item[\faTint] \textbf{Gebruik druppelirrigatie:} Altijd de veiligste optie.
+			\item[\faTint] \textbf{Kies een slim inlaatpunt:} Ver weg van risico's.
+			\item[\faSeedling] \textbf{Leg een bufferstrook aan:} Vermindert afspoeling.
+		\end{itemize}
+		\vspace{0.3cm}
+		\textbf{Meten = Weten}
+		\begin{itemize}
+			\item \textbf{De 3x Regel:} Meet 3x bij een terugkerend risico.
+			\item \textbf{Monstername:} Neem monster in het midden (30cm diep).
+		\end{itemize}
+	\end{multicols}
+	% --- THREE-COLUMN LAYOUT END ---
+\end{document}
