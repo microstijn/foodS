@@ -1,0 +1,30 @@
+# mkdocs.yml
+
+site_name: Project FoodS - Veilig Irrigatiewater
+site_author: Stijn Peeters
+site_url: https://<jouw-project>.readthedocs.io/  # Wordt later automatisch ingevuld
+
+repo_url: https://github.com/microstijn/foodS
+repo_name: microstijn/foodS
+edit_uri: edit/main/docs/ # Zorgt voor een 'Edit on GitHub' knop
+
+theme:
+  name: material
+  language: nl
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+
+# Navigatiestructuur van je website
+nav:
+  - 'Introductie': 'index.md'
+  - 'Belangrijke Begrippen': 'begrippen.md'
+  - 'De Risico’s': 'risicos.md'
+  - 'Actieplan & Flowcharts': 'actieplan.md'
+  - 'Ziekteverwekkers': 'ziekteverwekkers.md'
+  - 'Structurele Maatregelen': 'maatregelen.md'
+
+# Essentieel voor Mermaid-grafieken
+markdown_extensions:
+  - pymdownx.superfences

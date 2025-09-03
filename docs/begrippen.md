@@ -1,0 +1,7 @@
+## 1\. Belangrijke Begrippen (Lexicon)
+
+Om het document goed te begrijpen, lichten we hier de belangrijkste termen toe.
+
+- **Oppervlaktewater.** Oppervlaktewater is al het water dat in contact staat met de buitenlucht. Dit behelst rivieren, meren, beken, sloten, maar ook waterbassins, zelfs al hebben deze een ondergrondse bron. Vrijwel alle bronnen van irrigatiewater zijn hierdoor oppervlaktewater.
+- **Indicatororganisme (E. coli).** GlobalGAP maakt gebruik van de bacterie _Escherichia coli_ (_E. coli_) als een indicatororganisme. Dit wil zeggen dat de aanwezigheid van deze bacterie informatie verschaft over de waterkwaliteit. _E. coli_ is een darmbacterie van mensen en warmbloedige dieren en kan buiten het lichaam niet lang overleven. De aanwezigheid van _E. coli_ in oppervlaktewater duidt dus op een recente vervuiling met mest. Omdat mest ook ziekteverwekkers kan bevatten, is de hoeveelheid _E. coli_ een maat voor het gezondheidsrisico. Het is veel eenvoudiger en goedkoper om op één indicator te testen dan op alle mogelijke ziekteverwekkers.
+- **GlobalGAP** De regelgevende entiteit, als je het GlobalGAP-certificaat wilt gebruiken. Zij stellen de eis dat de microbiologische kwaliteit van irrigatiewater een aantal keer per jaar (afhankelijk van het gewas) gemeten wordt. De norm is dat de hoeveelheid _E. coli_ lager moet zijn dan 1000 kolonievormende eenheden (kve) per 100 ml water.
