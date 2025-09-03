@@ -1,9 +1,9 @@
-# mkdocs.yml
+# mkdocs.yml (Vereenvoudigde en geverifieerde versie)
+
 site_name: Project FoodS - Veilig Irrigatiewater
 site_author: Stijn Peeters
-site_url: https://<jouw-project>.readthedocs.io/
 
-repo_url: [https://github.com/microstijn/foodS](https://github.com/microstijn/foodS)
+repo_url: https://github.com/microstijn/foodS
 repo_name: microstijn/foodS
 edit_uri: edit/main/docs/
 
@@ -16,7 +16,6 @@ theme:
     - search.suggest
     - mermaid
 
-# Navigatiestructuur van je website
 nav:
   - 'Introductie': 'index.md'
   - 'Belangrijke Begrippen': 'begrippen.md'
@@ -25,10 +24,6 @@ nav:
   - 'Ziekteverwekkers': 'ziekteverwekkers.md'
   - 'Structurele Maatregelen': 'maatregelen.md'
 
-# Markdown extensies
+# Vereenvoudigde lijst van extensies. Dit is meestal voldoende.
 markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
