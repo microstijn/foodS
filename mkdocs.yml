@@ -11,15 +11,15 @@ theme:
   name: material
   language: nl
   features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - mermaid
+    # Deze feature verplaatst de inhoudsopgave naar de linker navigatiebalk.
+    - toc.integrate
+    # Deze feature houdt je positie in de linker navigatie bij tijdens het scrollen.
     - navigation.tracking
+    - navigation.instant
+    - search.suggest
 
-nav:
-  - 'Achtergrond document': 'index.md'
-
-# Vereenvoudigde lijst van extensies. Dit is meestal voldoende.
 markdown_extensions:
+  # Voegt klikbare ankerlinks toe aan de koppen
+  - toc:
+      permalink: true
   - pymdownx.superfences
