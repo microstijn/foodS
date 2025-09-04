@@ -2,6 +2,8 @@
 
 GlobalGAP heeft als doel het veiligstellen van onze gezondheid door het herhaald testen van oppervlaktewater dat gebruikt wordt voor irrigatie van gewassen. Let wel, dit document gaat over mensgezondheid en niet over diergezondheid. In dit document laten we zien dat aan de hand van een aantal simpele vuistregels de gezondheid van agrariër en consument beter beschermd kan worden zonder dat dit veel extra moeite kost.
 
+---
+
 # Visuele samenvatting
 
 Voor een snel overzicht kun je de poster hieronder bekijken of direct downloaden voor later gebruik.
@@ -9,6 +11,8 @@ Voor een snel overzicht kun je de poster hieronder bekijken of direct downloaden
 <iframe src="poster.pdf" width="100%" height="800px" title="Poster FoodS Veilig Irrigatiewater">
     <p>Je browser ondersteunt geen ingesloten PDF's. Gebruik de knop hierboven om de poster te downloaden.</p>
 </iframe>
+
+---
 
 # Introductie
 
@@ -18,7 +22,9 @@ Ook zonder meting kunnen redelijke inschattingen gemaakt worden van de waterkwal
 
 In dit document geven we deze vuistregels en hoe ze in de praktijk te brengen. Om dit tot zijn recht te laten komen is het belangrijk duidelijk te hebben waar deze vuistregels tegen beschermen. Waterkwaliteit, vervuiling, besmetting: het gaat over iets wat je niet kan zien, maar grote gevolgen kan hebben voor jouw gezondheid, je gewassen en de gezondheid van de consument. De bedreiging wordt gevormd door microscopische boosdoeners die via de uitwerpselen, urine en lichamen van mens en dier in het water terechtkomen. Het is dus essentieel te weten wanneer oppervlaktewater vervuild wordt en, nog belangrijker, hoe of wanneer het water weer veilig voor gebruik is.
 
-## 1\. Belangrijke Begrippen (Lexicon)
+---
+
+## Belangrijke Begrippen (Lexicon)
 
 Om het document goed te begrijpen, lichten we hier de belangrijkste termen toe.
 
@@ -26,29 +32,38 @@ Om het document goed te begrijpen, lichten we hier de belangrijkste termen toe.
 - **Indicatororganisme (E. coli).** GlobalGAP maakt gebruik van de bacterie _Escherichia coli_ (_E. coli_) als een indicatororganisme. Dit wil zeggen dat de aanwezigheid van deze bacterie informatie verschaft over de waterkwaliteit. _E. coli_ is een darmbacterie van mensen en warmbloedige dieren en kan buiten het lichaam niet lang overleven. De aanwezigheid van _E. coli_ in oppervlaktewater duidt dus op een recente vervuiling met mest. Omdat mest ook ziekteverwekkers kan bevatten, is de hoeveelheid _E. coli_ een maat voor het gezondheidsrisico. Het is veel eenvoudiger en goedkoper om op één indicator te testen dan op alle mogelijke ziekteverwekkers.
 - **GlobalGAP** De regelgevende entiteit, als je het GlobalGAP-certificaat wilt gebruiken. Zij stellen de eis dat de microbiologische kwaliteit van irrigatiewater een aantal keer per jaar (afhankelijk van het gewas) gemeten wordt. De norm is dat de hoeveelheid _E. coli_ lager moet zijn dan 1000 kolonievormende eenheden (kve) per 100 ml water.
 
+---
 
-## 2\. De Risico's: Wanneer is water een gevaar?
+## De Risico's: Wanneer is water een gevaar?
 
 De gezondheidsrisico’s komen vrijwel altijd door verontreiniging met mest, urine of kadavers van mens en dier. De hoofdoorzaken zijn: 1. Fikse regenbuien, 2. Lozingen en lekkages, en 3. Dieren in het gebied.
 
-### 2.1 Risico’s optredend bij regen
+---
+
+### Risico’s optredend bij regen
 
 - **Riooloverstort:** Bij hevige regen kan het riool de hoeveelheid water niet aan en stort het een mengsel van regen- en rioolwater in het oppervlaktewater. Dit veroorzaakt een plotselinge, zeer hoge piek van ziekteverwekkers. \[Hier een schematische tekening van een stad/dorp met een rioolpijp die tijdens een regenbui uitstroomt in een nabijgelegen rivier of kanaal, met stroomafwaarts een irrigatiepomp.\]
 - **Mestafspoeling van het land:** Na het uitrijden van mest kan een zware regenbui de mest van het land de sloot in spoelen. Verse mest vormt een groter risico dan oude, ingedroogde mest. \[Hier een schematische tekening van een bemest weiland dat afhelt naar een sloot, met pijlen die de afspoeling tijdens een regenbui visualiseren.\]
 
-### 2.2 Risico's door lozingen en lekkages
+---
+
+### Risico's door lozingen en lekkages
 
 - **Lekkage mestopslag:** Een lekkende mestsilo of mestvaalt kan continu of plotseling mest en ziekteverwekkers in het nabijgelegen water laten sijpelen.
 - **Rioolwaterzuivering (RWZI):** Een RWZI loost gezuiverd rioolwater. Hoewel het gezuiverd is, bevat het effluent altijd een restconcentratie ziekteverwekkers. De impact hangt af van de verdunning in het ontvangende water.
 - **Septic Tanks / IBA's:** Een slecht onderhouden of overbelaste septic tank kan ongezuiverd afvalwater lekken, wat leidt tot een structurele, lokale verontreiniging.
 - **Andere lozingen:** Denk aan illegale lozingen van campings, scheepvaart of slachterijen. Deze zijn onvoorspelbaar maar kunnen zeer hoge concentraties ziekteverwekkers bevatten.
 
-### 2.3 Risico’s door dieren
+---
+
+### Risico’s door dieren
 
 - **Wilde dieren (vogels, ratten, etc.):** Grote groepen watervogels of een aanzienlijke rattenpopulatie bij uw waterinlaatpunt zorgen voor een constante aanvoer van uitwerpselen en dus een verhoogd risico.
 - **Dode dieren:** Een dood dier (vogel, rat, schaap) in het water is een bron van bacteriën, met name _Clostridium botulinum_ (veroorzaker van botulisme).
 
-### 2.4 Samenvattende Risicotabel
+---
+
+### Samenvattende Risicotabel
 
 | Situatie | Factoren die risico verhogen | Indicatieve wachttijd na piek | Aanbevolen actie |
 | --- | --- | --- | --- |
@@ -60,7 +75,9 @@ De gezondheidsrisico’s komen vrijwel altijd door verontreiniging met mest, uri
 | Veel (water)vogels | Grote groep (>20) vogels verblijft langdurig bij inlaatpunt. | 2-3 dagen na vertrek | Verjaag de vogels. Vermijd waterinname op die locatie. |
 | Dode dieren | Kadaver in of nabij het water. | 2-3 dagen na verwijdering | Direct melden en (laten) verwijderen. |
 
-## 3\. Actieplan: Werken met de Stroomschema's
+---
+
+## Actieplan: Werken met de Stroomschema's
 
 \[HIER DE AFBEELDING VAN DE STROOMSCHEMA'S INVOEGEN\]
 
@@ -187,7 +204,9 @@ graph TD
 - **JA:** Waren de waarden van die metingen **binnen de norm** (< 1000 kve/100 ml)? Dan kunt u met een aanvaardbaar risico toch irrigeren. Zo niet, dan is het risico te hoog.
 - **NEE:** U heeft onvoldoende data om het risico te weerleggen. De aanbevolen actie is dan: **niet irrigeren met dit water**. Maak van de gelegenheid gebruik en laat de concentratie nu meten. Zo bouwt u data op en weet u voor de toekomst of u in deze omstandigheden wel of niet veilig kunt handelen.
 
-## 4\. Factsheets: De Boosdoeners
+---
+
+## Factsheets: De Boosdoeners
 
 **Legionella – _Legionellose_**
 
@@ -213,7 +232,9 @@ graph TD
 - **Hoe word je ziek?** Via opname van besmet water of het eten van met dit water besmette, ongewassen producten. Veroorzaken voornamelijk maag- en darmklachten.
 - **Preventie en actie:** Volg de adviezen uit de stroomdiagrammen om besmetting van het irrigatiewater te voorkomen. Was producten voor consumptie.
 
-## 5\. No-Regret Maatregelen: Slimme keuzes
+---
+
+## No-Regret Maatregelen: Slimme keuzes
 
 Dit zijn maatregelen die de risico's structureel verlagen en vaak ook andere voordelen hebben. De kosten zijn relatief laag en de winst is hoog.
 
@@ -222,9 +243,13 @@ Dit zijn maatregelen die de risico's structureel verlagen en vaak ook andere voo
 - **Leg een bufferstrook aan:** Een strook met gras of andere vegetatie (minimaal enkele meters breed) langs uw waterbron kan afspoeling van mest en bestrijdingsmiddelen vanaf uw perceel aanzienlijk verminderen.
 - **Gebruik een waterbassin:** Door water eerst op te pompen in een bassin en het daar enige tijd te laten staan, kunnen ziekteverwekkers bezinken en worden ze afgebroken door UV-licht van de zon. Dit fungeert als een extra veiligheidsbuffer.
 
-## 6\. Over Meten: Weten is meten
+---
+
+## Over Meten: Weten is meten
 
 Metingen blijven essentieel om zekerheid te krijgen in een onbekende of verdachte situatie.
 
 - **Wat is een meting?** Een watermonster wordt naar een laboratorium gestuurd, waar men het aantal kolonievormende eenheden (kve) van _E. coli_ telt. Het resultaat geeft aan of het water op het moment van meten voldeed aan de GlobalGAP-norm.
 - **De 3x regel:** Als u een terugkerende risicosituatie heeft (bv. irrigeren 3 dagen na een zware bui), meet dan ten minste **drie keer** onder die specifieke, vergelijkbare omstandigheden. Als de uitslag drie keer goed is, kunt u er met meer vertrouwen van uitgaan dat irrigatie onder die condities veilig is.
+
+---
