@@ -83,7 +83,7 @@ De gezondheidsrisico’s komen vrijwel altijd door verontreiniging met mest, uri
 
 De hierboven geplaatste stroomschema's vormen de kern van deze handleiding. Ze helpen u om van een situatie naar een concrete actie te gaan. Hieronder wordt de logica van de schema's stap voor stap uitgelegd.
 
-**3.1 Stroomschema 1: Risico-inventarisatie en Wachttijd**
+**Stroomschema 1: Risico-inventarisatie en Wachttijd**
 
 Dit schema helpt u te bepalen of er een risico is en hoe lang u moet wachten voordat u veilig kunt irrigeren.
 
@@ -144,7 +144,7 @@ graph TD
 
 _Let op: Bij een continue, structurele vervuiling (zoals een constant lekkende leiding) begint de wachttijd pas te tellen vanaf het moment dat de vervuiling is gestopt._
 
-**3.2 Stroomschema 2: Actieplan bij Acute Waterbehoefte**
+**Stroomschema 2: Actieplan bij Acute Waterbehoefte**
 
 Dit schema gebruikt u als u volgens Schema 1 zou moeten wachten, maar u toch dringend water nodig heeft (bv. door extreme hitte en droogte).
 
