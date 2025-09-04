@@ -15,6 +15,7 @@ theme:
     - navigation.top
     - search.suggest
     - mermaid
+    - navigation.tracking
 
 nav:
   - 'Achtergrond document': 'index.md'
