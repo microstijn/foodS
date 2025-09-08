@@ -1,6 +1,8 @@
-## Abstract
+## De risico's van het gebruik van oppervlaktewater als irrigatiewater.
 
-GlobalGAP heeft als doel het veiligstellen van onze gezondheid door het herhaald testen van oppervlaktewater dat gebruikt wordt voor irrigatie van gewassen. Let wel, dit document gaat over mensgezondheid en niet over diergezondheid. In dit document laten we zien dat aan de hand van een aantal simpele vuistregels de gezondheid van agrariër en consument beter beschermd kan worden zonder dat dit veel extra moeite kost.
+Welkom bij dit document over de risico's van het gebruik van oppervlaktewater als irrigatiewater. Dit document is bedoeld als een praktische gids en naslagwerk, en focust specifiek op de risico's en beheersmaatregelen bij het gebruik van oppervlaktewater als irrigatiewater. Het biedt telers, verwerkers en andere belanghebbenden in de agrifoodsector concrete handvatten om de voedselveiligheid te waarborgen.
+
+Dit document is tot stand gekomen binnen het project "Voedselveiligheid in een circulair water- en voedselsysteem". Het is het resultaat van een samenwerking tussen GroenteFruit Huis, H2oke, Wageningen University & Research en Vollegronds Groente. De inhoud is een samenvatting van expert opinion. De verzamelde inzichten zijn getoetst en aangescherpt tijdens een interactieve workshop met experts op de WaterMicro conferentie. Door deze bundeling van wetenschappelijke kennis en praktijkervaring willen we de sector ondersteunen bij de transitie naar een veilig en duurzaam circulair voedselsysteem.
 
 ---
 
@@ -253,3 +255,23 @@ Metingen blijven essentieel om zekerheid te krijgen in een onbekende of verdacht
 - **De 3x regel:** Als u een terugkerende risicosituatie heeft (bv. irrigeren 3 dagen na een zware bui), meet dan ten minste **drie keer** onder die specifieke, vergelijkbare omstandigheden. Als de uitslag drie keer goed is, kunt u er met meer vertrouwen van uitgaan dat irrigatie onder die condities veilig is.
 
 ---
+
+## Colofon
+
+Projectnaam: Voedselveiligheid in een circulair water- en voedselsysteem
+
+Auteurs:
+
+* Stijn H. Peeters
+
+* Imke Leenen
+
+Versie: 0.1
+
+Publicatiedatum: [nog niet publicatieklaar]
+
+Contact: []
+
+Licentie: Creative Commons-licentie
+
+Dit document is met de grootst mogelijke zorgvuldigheid samengesteld. Desondanks kunnen er geen rechten aan worden ontleend.
