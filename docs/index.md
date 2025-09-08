@@ -81,9 +81,7 @@ De gezondheidsrisico’s komen vrijwel altijd door verontreiniging met mest, uri
 
 ## Actieplan: Werken met de Stroomschema's
 
-\[HIER DE AFBEELDING VAN DE STROOMSCHEMA'S INVOEGEN\]
-
-De hierboven geplaatste stroomschema's vormen de kern van deze handleiding. Ze helpen u om van een situatie naar een concrete actie te gaan. Hieronder wordt de logica van de schema's stap voor stap uitgelegd.
+De hieronder geplaatste stroomschema's vormen de kern van deze handleiding. Ze helpen u om van een situatie naar een concrete actie te gaan. Hieronder wordt de logica van de schema's stap voor stap uitgelegd.
 
 **Stroomschema 1: Risico-inventarisatie en Wachttijd**
 
