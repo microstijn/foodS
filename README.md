@@ -1,10 +1,13 @@
-# Project FoodS: Handvaten voor Veilig Irrigatiewater
+# Voedselveiligheid in een circulair water- en voedselsysteem
 
-## ** CONCEPTVERSIE ** 
+## Submodule veilig irrigeren. 
+
+## **CONCEPTVERSIE** 
+
+Link naar de mens-leesbare versie: 
+https://foods.readthedocs.io/nl/latest/
 
 Niet  verder verspreiden
-
-Dit project biedt praktische handvaten en beslissingsondersteunende hulpmiddelen voor agrariërs om veilig gebruik te maken van oppervlaktewater voor irrigatie, in lijn met de geest van de GlobalGAP-regelgeving.
 
 ## Omschrijving
 
