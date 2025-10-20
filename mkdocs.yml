@@ -22,4 +22,9 @@ markdown_extensions:
   # Voegt klikbare ankerlinks toe aan de koppen
   - toc:
       permalink: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
